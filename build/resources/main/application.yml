@@ -1,0 +1,59 @@
+server:
+  port: 8092 #random port
+
+spring:
+  application:
+    name: portal
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://host.docker.internal:3306/fire?autoReconnect=true
+    username: Isaac
+    password: 1234
+#  datasource:
+#    driver-class-name: org.mariadb.jdbc.Driver
+#    url: jdbc:mariadb://localhost:3306/fire?autoReconnect=true
+#    username: Isaac
+#    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+
+#  rabbitmq:
+##    host: localhost
+#    host: rabbitmq
+#    port: 5672
+#    username: guest
+#    password: yy352507
+
+#jwt:
+#  secret: ZWdvdmZyYW1ld29yaw==
+#  expiration: 300000
+
+
+#  kafka:
+#    consumer:
+#      bootstrap-servers: kafka:9092
+#      group-id: group-01
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.LongDeserializer
+#    producer:
+#      bootstrap-servers: localhost:9092
+#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      value-serializer: org.apache.kafka.common.serialization.LongSerializer
+
+
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+  client:
+    service-url:
+      defaultZone: ${EUREKA_CLIENT_SERVICEURL_DEFAULTZONE:http://localhost:8761/eureka}
+#      defaultZone: http://localhost:8761/eureka  #default address
+
+
