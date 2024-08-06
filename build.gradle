@@ -87,8 +87,15 @@ tasks.withType(Test) {
 def querydslDir = "$buildDir/generated/querydsl"
 
 // java source set 에 querydsl QClass 위치 추가
+//sourceSets {
+//	main.java.srcDirs += [ querydslDir ]
+//}
 sourceSets {
-	main.java.srcDirs += [ querydslDir ]
+    main {
+        java {
+            srcDirs += [querydslDir]
+        }
+    }
 }
 
 // gradle clean 시에 QClass 디렉토리 삭제
