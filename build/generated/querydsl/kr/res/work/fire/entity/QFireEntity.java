@@ -15,7 +15,7 @@ import com.querydsl.core.types.Path;
 @Generated("com.querydsl.codegen.DefaultEntitySerializer")
 public class QFireEntity extends EntityPathBase<FireEntity> {
 
-    private static final long serialVersionUID = -1674936788L;
+    private static final long serialVersionUID = -1668629068L;
 
     public static final QFireEntity fireEntity = new QFireEntity("fireEntity");
 
