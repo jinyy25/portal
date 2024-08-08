@@ -109,10 +109,10 @@ compileQuerydsl {
 def frontendDir = "$projectDir/src/main/frontend/app-portal"
 
 sourceSets {
-main {
-	resources { srcDirs = ["$projectDir/src/main/resources"]
-	}
-}
+    main {
+        resources { srcDirs = ["$projectDir/src/main/resources"]
+        }
+    }
 }
 
 processResources { dependsOn "copyReactBuildFiles" }
