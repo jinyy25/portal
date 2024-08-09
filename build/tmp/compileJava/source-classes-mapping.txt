@@ -28,3 +28,9 @@ kr/res/work/ServletInitializer.java
  kr.res.work.ServletInitializer
 kr/res/work/fire/dto/FireDto.java
  kr.res.work.fire.dto.FireDto
+kr/res/work/config/SecurityConfig.java
+ kr.res.work.config.SecurityConfig
+kr/res/work/config/WebConfig.java
+ kr.res.work.config.WebConfig
+kr/res/work/fire/controller/PortalSearchController.java
+ kr.res.work.fire.controller.PortalSearchController
