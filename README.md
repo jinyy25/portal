@@ -1,6 +1,6 @@
 # MSA TEST
 
-- 프로젝트명 : MSA TEST 
+- MSA TEST_Back
 
 - 인원: 1명
 
