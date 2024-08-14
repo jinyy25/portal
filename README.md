@@ -1,10 +1,16 @@
-DeployProject_BackEnd
-프로젝트명 : DeployProject (배포 시스템)
+# MSA TEST
 
-기능 : 스크립트 or 파일 업로드시 해당경로의 파일을 압축하여 배포, 스케쥴러, 게시판, 로그인 기능
+- 프로젝트명 : MSA TEST 
 
-사용된 기술 : Spring, MVC Pattern, RestApi
+- 기능
+  Spring Cloud (Circuit Breaker, Load Balance)
+  Jenkins
+  Kafka/Radditmq
+  GateWay API
+  
+- 사용된 기술 : Spring, MVC Pattern, RestApi
 
-인원: 5명
+- 인원: 1명
 
-기여도: 20% (스크립트 or 파일 업로드시 해당경로의 파일을 압축하여 배포하는 로직)
+
+
