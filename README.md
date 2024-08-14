@@ -2,7 +2,7 @@
 
 - 프로젝트명 : MSA TEST 
 
-- 기능
+- 기능 :
   Spring Cloud (Circuit Breaker, Load Balance)
   Jenkins
   Kafka/Radditmq
