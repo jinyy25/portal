@@ -5,6 +5,7 @@
 - 인원: 1명
 
 - Spring Cloud (Circuit Breaker, Load Balance)
+- Docker
 - Jenkins
 - Kafka/Radditmq
 - GateWay API
