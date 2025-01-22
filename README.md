@@ -2,8 +2,6 @@
 
 - MSA TEST_Back
 
-- 인원: 1명
-
 - Spring MVC Pattern
 - JPA, DSL Query
 - Spring Cloud (Circuit Breaker, Load Balance)
